@@ -1,0 +1,65 @@
+body {
+    background-color: darkcyan;
+    margin: 0;
+    overflow: hidden;
+}
+
+.left {
+/*    overflow-y: scroll;*/
+    color: white;
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.right {
+/*    overflow-y: scroll;  */
+    color: white;
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+#titles {
+    text-align: center;
+    padding: 2%;
+}
+
+.awardImg {
+    width: 100px;
+}
+
+.awardText {
+    
+}
+
+#prtitle {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 540px){
+    body{
+        
+    }
+    .left {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .right {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+}

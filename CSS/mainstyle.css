@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    background-color: palevioletred;
+    overflow: hidden;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 130px;
+}
+
+#tabs {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tab {
+    z-index:auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    width: 20%;
+    background-color: aqua;
+    height: 45px;
+    margin: 5px;
+    margin-top: 0;
+    border: 5px;
+    filter: brightness(50%);
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#onTab {
+    background-color: #583D4E;
+    transform: translateY(-10px);filter: brightness(100%);
+}
+
+.tab:hover {
+    animation-name: fileHover;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+#holder {
+    height: calc(100% - 200px);
+}
+
+#stickyNote {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.snImg {
+    width: 32%;
+   
+}
+
+
+
+.snImg:hover {
+    width: 37%;
+    max-width: 37%;
+    transform: rotate(10deg);
+    transition-timing-function: ease;
+}
+.still {
+    z-index: 2;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    background-color: #583D4E;   
+}
+
+.tagAlong {
+    width: 100%;
+    height: 155px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
+
+.grow {
+    animation-name: grow;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.grow2 {
+    animation-name: grow2;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+/*
+#details {    
+    display: flex;
+    justify-content: center;
+}
+
+
+.detail {
+    position: fixed;
+}
+
+.paperClip{
+    left: -5%;
+    width: 200px;
+}
+
+.pencil{
+    right: 5%;       
+    width: 400px;
+    transform: rotate(40deg);
+}
+
+.tape {
+    right: 10px;
+    top: 20px;
+    width: 150px;
+    transform: rotate(-20deg);
+}
+
+.sticker{
+    left: 200px;
+    top: 250px;
+    width: 200px;
+}
+
+*/
+
+@media screen and (max-width: 550px){
+    .snImg {
+    width: 70%;
+    }
+    .snImg:hover {
+    width: 77%;
+    max-width: 77%;
+    transform: rotate(10deg);
+    transition-timing-function: ease;
+    }
+}
+
+@keyframes fileHover {
+    from{}
+    to{transform: translateY(-20px);filter: brightness(100%);}
+}
+
+
+@keyframes grow {
+    from{transform: scale(1);;filter: brightness(50%);}
+    to{transform: scale(1.2);;filter: brightness(100%);}
+}
+
+@keyframes grow2 {
+    from{transform: scale(1);}
+    to{transform: scale(1.2);}
+}
+
+.zineTab {
+    background-color: #3D2936;
+}
+.awardsTab {
+
+    background-color: #33202C;
+}
+.artistsTab {
+    background-color: #2A1824;
+}
+.storiesTab {
+    background-color: #25131F;
+}
