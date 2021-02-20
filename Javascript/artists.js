@@ -1,14 +1,11 @@
 $(document).ready(function(){
   
-    let imgLinks = [addImgTags("TestImages/Signiatures/arvlo.png"), addImgTags("https://i.imgur.com/Cp8O5ND.png"), addImgTags("https://i.imgur.com/1FRaA8L.png"), addImgTags("https://i.imgur.com/cRRMrIA.png"), addImgTags("https://i.imgur.com/TYEvYxY.png"), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags("")];
-    let leftAppend = ".appendLeft";
-    let rightAppend = ".appendRight";
+    let imgLinks = ["TestImages/Signatures/arvlo.png",];
     
     function printitems(array, where){
-        let i = 0;
-        array.forEach(function(){
-            $(where).append(array[i]);
-            i++;
+        array.forEach(function(element){
+            $(where).append(element);
+            
         });
     }
     
@@ -19,8 +16,16 @@ $(document).ready(function(){
     function addPTags(text){
         return(`<p class="awardText">` + text + `<p>`);
     }
+    
+    function addImgTagstoArray(arr){
+        arr.forEach(function(element, index, array){
+        array[index] = addImgTags(element);
+            
+});
+    }
 
-    printitems(imgLinks, "body");
+    addImgTagstoArray(imgLinks)
+    printitems(imgLinks, "body")
     /*
     console.log(addImgTags(imgLinks[0]));
     */
