@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-    let imgLinks = ["TestImages/Signatures/arvlo.png",];
+    let imgLinks = ["TestImages/Signatures/1800whatever.png", "TestImages/Signatures/addyTheInstaBoy.png", "TestImages/Signatures/ampilfur.png", "TestImages/Signatures/arvlo.png", "TestImages/Signatures/BugzDrawz.png", "TestImages/Signatures/cocoaJord.png", "TestImages/Signatures/colonyBees.png", "TestImages/Signatures/demoncamile.png", "TestImages/Signatures/Doodle.png", "TestImages/Signatures/doodleNoodle.png", "TestImages/Signatures/dorkyfries.png", "TestImages/Signatures/Drawz.png", "TestImages/Signatures/evichuArt.png", "TestImages/Signatures/galchy.png", "TestImages/Signatures/hobbitCole.png", "TestImages/Signatures/paigelikesdoodles.png", "TestImages/Signatures/PinkSinsila.png", "TestImages/Signatures/posiTVT.png", "TestImages/Signatures/railyTate.png", "TestImages/Signatures/theSaylor.png", "TestImages/Signatures/tinsley.png", "TestImages/Signatures/tiredStevenArt.png"];
     
     function printitems(array, where){
         array.forEach(function(element){
@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
     
     function addImgTags(link){
-        return(`<img class="awardImg" src="` + link + `">`);
+        return(`<img class="signature" src="` + link + `">`);
     }
     
     function addPTags(text){
@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
 
     addImgTagstoArray(imgLinks)
-    printitems(imgLinks, "body")
+    printitems(imgLinks, "#appendee")
     /*
     console.log(addImgTags(imgLinks[0]));
     */
