@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-    let imgLinks = [addImgTags("https://i.imgur.com/XF92hHn.png"), addImgTags("https://i.imgur.com/Cp8O5ND.png"), addImgTags("https://i.imgur.com/1FRaA8L.png"), addImgTags("https://i.imgur.com/cRRMrIA.png"), addImgTags("https://i.imgur.com/TYEvYxY.png"), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags("")];
+    let imgLinks = [addImgTags("TestImages/Signiatures/arvlo.png"), addImgTags("https://i.imgur.com/Cp8O5ND.png"), addImgTags("https://i.imgur.com/1FRaA8L.png"), addImgTags("https://i.imgur.com/cRRMrIA.png"), addImgTags("https://i.imgur.com/TYEvYxY.png"), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags(""), addImgTags("")];
     let leftAppend = ".appendLeft";
     let rightAppend = ".appendRight";
     
