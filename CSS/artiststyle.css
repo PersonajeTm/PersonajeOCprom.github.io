@@ -60,6 +60,7 @@ h1 {
     }
 }
 
+/* HOME BUTTON START*/
 button {
     display: block;
     margin: auto;
@@ -69,3 +70,4 @@ button {
 button:hover {
     background-color: darkgray;
 }
+/* HOME BUTTON END*/

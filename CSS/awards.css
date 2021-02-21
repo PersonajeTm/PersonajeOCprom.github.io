@@ -90,3 +90,15 @@ body {
         min-width: 30%;
     }
     }
+
+/* HOME BUTTON START*/
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+/* HOME BUTTON END*/
