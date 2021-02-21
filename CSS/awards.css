@@ -43,6 +43,21 @@ body {
 
 #prtitle {
     text-align: center;
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+.prcr {
+    text-align: center;
+/*    background-color: blue;*/
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#prcrImg {
+    max-width: 45%;
+    min-width: 30%;
 }
 
 
@@ -62,4 +77,16 @@ body {
         height: auto;
         background-color: transparent;
     }
-}
+    
+    .prcr {
+        text-align: center;
+        width: 45%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    #prcrImg {
+        max-width: 45%;
+        min-width: 30%;
+    }
+    }
