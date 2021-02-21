@@ -1,5 +1,5 @@
 body {
-    background-color: #232323;
+    background-color: #774B75;
     margin: 0;
     overflow-x: hidden;
 }
@@ -17,7 +17,7 @@ body {
     padding: 10px;
     margin: 5px;
    /* filter: grayscale(100%) blur(.5px);*/
-    filter: drop-shadow(0px 2px 0px blue);
+    filter: drop-shadow(0px 2px 0px #55346D);
 }
 .signature:hover {
     animation-name: react;
@@ -29,7 +29,7 @@ body {
 
 @keyframes react{
     from{
-        filter: grayscale(100%) /*blur(0px)*/;
+        filter:blur(0px);
         transform: translate(0, 0);
     }
     to{
