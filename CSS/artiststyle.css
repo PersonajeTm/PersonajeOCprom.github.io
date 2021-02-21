@@ -1,5 +1,7 @@
 body {
-    background-color: #774B75;
+    /*background-color: #774B75;*/
+    background-image: url(/TestImages/bgtest2.png);
+    background-size: cover;
     margin: 0;
     overflow-x: hidden;
 }
@@ -32,7 +34,9 @@ h1 {
     font-size: 100px;
     text-align: center;
     margin-top: 4%;
-    font-family: 'Permanent Marker', cursive;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: 'Indie Flower', cursive;
 }
 
 @keyframes react{
@@ -44,4 +48,24 @@ h1 {
         filter: grayscale(0%)/* blur(0.5px)*/;
         transform: translate(0, -10%);
     }
+}
+
+@media screen and (max-width: 560px){
+    body {
+        background-image: url(/TestImages/bgtest.png);
+        background-size: cover;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: darkgray;
 }
