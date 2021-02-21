@@ -27,6 +27,14 @@ body {
     
 }
 
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Permanent Marker', cursive;
+}
+
 @keyframes react{
     from{
         filter:blur(0px);

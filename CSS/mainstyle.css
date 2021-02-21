@@ -39,7 +39,7 @@ a {
 }
 
 #onTab {
-    background-color: #583D4E;
+    background-color: #3A1D7D;
     transform: translateY(-10px);filter: brightness(100%);
 }
 
@@ -83,7 +83,7 @@ a {
     height: 150px;
     position: fixed;
     bottom: 0;
-    background-color: #583D4E;   
+    background-color: #3A1D7D;   
 }
 
 .tagAlong {
@@ -176,15 +176,15 @@ a {
 }
 
 .zineTab {
-    background-color: #3D2936;
+    background-color: #1585FF;
 }
 .awardsTab {
 
-    background-color: #33202C;
+    background-color: #0E8B52;
 }
 .artistsTab {
-    background-color: #2A1824;
+    background-color: #FFCC10;
 }
 .storiesTab {
-    background-color: #25131F;
+    background-color: #FF0692;
 }
