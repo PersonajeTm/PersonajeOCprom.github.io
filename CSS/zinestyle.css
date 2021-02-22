@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: palevioletred;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+
+.leftPage {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-color: lime;
+    left: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.rightPage {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-color:purple;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.piece {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.artist {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.next, .previous {
+    background-color: transparent;
+    border: none;
+    
+}
+#next, #previous {
+    width: 50px;
+}
+
+#next {
+    position: fixed;
+    right: 1%;
+}
+
+#previous {
+    position: fixed;
+    left: 1%;
+}
