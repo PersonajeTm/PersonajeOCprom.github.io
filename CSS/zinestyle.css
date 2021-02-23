@@ -14,12 +14,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+    align-items: center;
 }
 
 
 .leftPage {
     position: fixed;
-    width: 50%;
+    width:50%;
     height: 100%;
     background-image: url(/TestImages/bgtest3.png);
     background-size: cover;
@@ -31,7 +32,7 @@ body {
 
 .rightPage {
     position: fixed;
-    width: 50%;
+    width:50%;
     height: 100%;
     background-color:purple;
     right: 0%;
@@ -56,18 +57,19 @@ body {
 .next, .previous {
     background-color: transparent;
     border: none;
+    width: 10%;
     
 }
 #next, #previous {
     width: 50px;
+    position: fixed;
+    z-index: 1;
 }
 
 #next {
-    position: fixed;
     right: 1%;
 }
 
 #previous {
-    position: fixed;
     left: 1%;
 }
