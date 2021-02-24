@@ -1,34 +1,43 @@
 $(document).ready(function(){
     
     let position = 0;
-    let images = ["TestImages/Signatures/1800whatever.png", "TestImages/Signatures/addyTheInstaBoy.png", "TestImages/Signatures/ampilfur.png", "TestImages/Signatures/arvlo.png", "TestImages/Signatures/BugzDrawz.png"];
+    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNblujay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png"];
     let artists = [];
-    let max = 5;
+    let max = 7;
     
     $("#next").click(function(){
-        
-        if (position >= max){
-            position = max-1;
-            }
-        position++;
-        console.log(position);
+ // CHANGE IF MAX IS AN EVEN NUMBER
+        if (position < max - 1){
+            position+= 2;
+        }
+            updateSite();
+    
     });
     
-    $("#previous").click(function(){
-        if (position === 0) {
-            position = 1;
-            }
-        position--;
-        console.log(position)
+    $("#prButton").click(function(){
+
+        if (position > 0){
+            position-= 2;
+        }
+            updateSite();
+        
     });
     
     function updateSite(){
-        $(".leftPage.piece").attr("source", images[position]);
+        $(".rightPage .piece").attr("src", images[position +1]);
+        $(".leftPage .piece").attr("src", images[position]);
+        
+            if (position == max - 1){
+            $(".rightPage .piece").hide();
+            $(".rightPage .artist").hide();
+            }
+        else {
+            $(".rightPage .piece").show();
+            $(".rightPage .artist").show();
+        }
     }
+        
     
-    $("button").click(function(){
-        updateSite;
-    });
     
     
 });
