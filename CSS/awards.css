@@ -1,5 +1,5 @@
 body {
-    background-color: darkcyan;
+    background-color: darkolivegreen;
     margin: 0;
     overflow: hidden;
 }
@@ -31,6 +31,7 @@ body {
 #titles {
     text-align: center;
     padding: 2%;
+    font-family: 'Fredoka One', cursive;
 }
 
 .awardImg {
@@ -40,23 +41,56 @@ body {
 
 #prtitle {
     text-align: center;
-    margin-top: 2%;
-    font-size: 100%;
+    margin: 0;
+    margin-top: 1%;
+    font-size: 200%;
+    font-family: 'East Sea Dokdo', cursive;
+
 }
 
 .prcr {
-    margin-top: 50px;
     text-align: center;
     width: 35%;
     margin: auto;
     display: flex;
     justify-content: center;
+    filter: hue-rotate(160deg);
 }
+
+div.prcr {
+   margin-top: 50px;    
+}
+
 #prcrImg {
     max-width: 35%;
     min-width: 20%;
 }
 
+/* HOME BUTTON START*/
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+/* HOME BUTTON END*/
+
+#bjanka, #seraphina {
+    align-self: center;
+    width: 23%;
+    margin: 1%;
+}
+.prp {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 540px){
     body{
@@ -83,9 +117,21 @@ body {
         justify-content: center;
     }
     #prcrImg {
-        max-width: 35%;
-        min-width: 20%;
+        max-width: 100%;
+        min-width: 80%;
     }
+        .prp {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    #bjanka, #seraphina {
+    align-self: center;
+    width: 50%;
+    margin: 1%;
+    margin-top: 5%;
+}
     }
 
 @media screen and (min-height: 700px){
@@ -115,31 +161,17 @@ body {
     #prcrImg {
         max-width: 35%;
         min-width: 20%;
-    }    
-}
-/* HOME BUTTON START*/
-button {
-    display: block;
-    margin: auto;
-    margin-bottom: 2%;
-}
-
-button:hover {
-    background-color: darkgray;
-}
-/* HOME BUTTON END*/
-
-#bjanka, #seraphina {
-    align-self: center;
-    width: 23%;
-    margin: 1%;
-    margin-top: 5%
-}
-.prp {
-    display: block;
+    }  
+    .prp {
     margin: auto;
     width: 100%;
-    height: 50%;
     display: flex;
     justify-content: center;
+}
+    #bjanka, #seraphina {
+    align-self: center;
+    width: 50%;
+    margin: 1%;
+    margin-top: 5%;
+}
 }

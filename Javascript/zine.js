@@ -1,5 +1,14 @@
 $(document).ready(function(){
     
+    var width = $(window).width(); 
+    var height = $(window).height(); 
+
+    if (height > width) {
+    console.log("mobile");
+        $("body").remove();
+    }
+    else {
+        
     let position = 0;
     let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png"];
     let artists = [];
@@ -36,6 +45,10 @@ $(document).ready(function(){
             $(".rightPage .artist").show();
         }
     }
+        
+    }
+    
+    
         
     
     
