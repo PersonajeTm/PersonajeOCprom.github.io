@@ -59,7 +59,7 @@ $(document).ready(function(){
         
         
         
-    }/*
+    }
     else {
            let position = 0;
     
@@ -101,6 +101,6 @@ $(document).ready(function(){
     
         
     
-    */
+    
     
 });
