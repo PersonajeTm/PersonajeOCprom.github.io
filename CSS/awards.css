@@ -94,7 +94,7 @@ button:hover {
 
 @media screen and (max-width: 540px){
     body{
-        
+        overflow: scroll;
     }
     .left {
         position: static;
@@ -136,7 +136,7 @@ button:hover {
 
 @media screen and (min-height: 700px){
     body{
-        
+        overflow: scroll;
     }
     .left {
         position: static;

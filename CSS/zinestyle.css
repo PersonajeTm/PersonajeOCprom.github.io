@@ -74,9 +74,23 @@ body {
     left: 1%;
 }
 
-@media screen and (max-width: 500px){
+/*
+@media screen and (max-width: 857px){
     body {
         background-color: greenyellow;
     }
-    
+    .container {
+        background-image: url(/TestImages/bgtest3.png);
+        padding: 2%;
+    }
+    .piece {
+    max-width: 80%;
+    min-width: 75%;
+    display: block;
+    margin: auto;
+    }
+    #next, #prButton {
+    width: 25px;
+    }
 }
+*/
