@@ -119,6 +119,7 @@ button:hover {
     #prcrImg {
         max-width: 100%;
         min-width: 80%;
+        align-self: center;
     }
         .prp {
     margin: auto;
