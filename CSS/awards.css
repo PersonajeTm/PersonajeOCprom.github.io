@@ -117,8 +117,8 @@ button:hover {
         justify-content: center;
     }
     #prcrImg {
-        max-width: 100%;
-        min-width: 80%;
+        max-width: 300px;
+        min-width: 100px;
         align-self: center;
     }
         .prp {
@@ -160,8 +160,9 @@ button:hover {
         justify-content: center;
     }
     #prcrImg {
-        max-width: 35%;
-        min-width: 20%;
+        max-width: 300px;
+        min-width: 100px;
+        align-self: center;
     }  
     .prp {
     margin: auto;
