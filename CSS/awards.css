@@ -118,11 +118,11 @@ button:hover {
         justify-content: center;
     }
     #prcrImg {
-        max-width: 300px;
-        min-width: 100px;
-        max-height: 300px;
-        min-height: 100px;
         align-self: center;
+        max-width: 45%;
+        min-width: 30%;
+        max-height: 45%;
+        min-height: 30%;
         
     }
         .prp {
@@ -140,6 +140,7 @@ button:hover {
     }
 
 @media screen and (min-height: 700px){
+/*
     body{
         overflow: scroll;
     }
@@ -182,4 +183,5 @@ button:hover {
     margin: 1%;
     margin-top: 5%;
 }
+*/
 }
