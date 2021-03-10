@@ -7,9 +7,9 @@ $(document).ready(function(){
                     <img class="piece" src="TestImages/Pages/herriochi.png">
                     <img class="artist" src="TestImages/Signatures/herriochi.png">
                   </div>`;
-    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png"];
+    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png"];
     let artists = [];
-    let max = 8;
+    let max = 9;
     
     if ((height > width) || (height >= (width - 200))) {
         var position = 0;
