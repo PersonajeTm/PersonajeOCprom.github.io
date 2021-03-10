@@ -64,6 +64,7 @@ div.prcr {
 #prcrImg {
     max-width: 35%;
     min-width: 20%;
+    align-self: center;
 }
 
 /* HOME BUTTON START*/
