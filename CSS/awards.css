@@ -118,8 +118,11 @@ button:hover {
         justify-content: center;
     }
     #prcrImg {
+/*
         max-width: 300px;
         min-width: 100px;
+*/
+        width: -webkit-fill-available;
         align-self: center;
     }
         .prp {
@@ -161,8 +164,11 @@ button:hover {
         justify-content: center;
     }
     #prcrImg {
+/*
         max-width: 300px;
         min-width: 100px;
+*/
+        width: -webkit-fill-available;
         align-self: center;
     }  
     .prp {
