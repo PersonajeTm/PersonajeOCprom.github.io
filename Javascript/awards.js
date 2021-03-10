@@ -20,6 +20,7 @@ $(document).ready(function(){
         return(`<p class="awardText">` + text + `<p>`);
     }
 
+    $("#prcrImg").css("align-self", "center")
   /*  printitems(imgLinks, leftAppend);
     
     console.log(addImgTags(imgLinks[0]));
