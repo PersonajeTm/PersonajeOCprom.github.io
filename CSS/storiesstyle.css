@@ -58,3 +58,15 @@ body {
 #author {
     width: 200px;
 }
+
+/* HOME BUTTON START*/
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+/* HOME BUTTON END*/
