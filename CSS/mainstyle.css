@@ -109,43 +109,41 @@ a {
 }
 
 
-
-/*
-#details {    
-    display: flex;
-    justify-content: center;
-}
-
-
 .detail {
     position: fixed;
+    top: 2%;
 }
 
-.paperClip{
-    left: -5%;
-    width: 200px;
+#pin {
+    width: 10%;
+    right: 2%;
+    z-index: 2;
 }
 
-.pencil{
-    right: 5%;       
-    width: 400px;
-    transform: rotate(40deg);
+#pin:hover {
+    transform: rotate(4deg) translateY(2px) scale(0.9);
 }
 
-.tape {
-    right: 10px;
-    top: 20px;
-    width: 150px;
-    transform: rotate(-20deg);
+#card {
+    width: 20%;
+    left: 2%;
+    z-index: 2;
 }
 
-.sticker{
-    left: 200px;
-    top: 250px;
-    width: 200px;
+#card:hover {
+    filter: contrast(0.5);
+    transform: rotate(-2deg);
 }
 
-*/
+#pencil {
+    width: 3%;
+    left: 20%;
+    transform: rotate(10deg);
+    z-index: 3;
+}
+#pencil:hover {
+    transform: translateY(-2px) scale(0.8);
+}
 
 @media screen and (max-width: 550px){
     .snImg {
@@ -157,6 +155,20 @@ a {
     transform: rotate(10deg);
     transition-timing-function: ease;
     }
+    #pin {
+    width: 30%;
+    
+}
+    #card {
+    width: 40%;
+}
+
+#pencil {
+    width: 5%;
+    left: 35%;
+    transform: rotate(20deg);
+}
+    
 }
 
 @keyframes fileHover {
