@@ -33,7 +33,8 @@ $(document).ready(function(){
         /// CSS END
         
         function updateSite(){
-            $(".piece").attr("src", images[position]);   
+            $(".piece").attr("src", images[position]);  
+            $(".artist").attr("src", artists[position]);
         }
         
 
