@@ -8,7 +8,7 @@ $(document).ready(function(){
                     <img class="artist" src="TestImages/Signatures/herriochi.png">
                   </div>`;
     let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png"];
-    let artists = [];
+    let artists = ["TestImages/Labels/herriochi.png", "TestImages/Labels/Drawz.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/galchy.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/yysdrmz.png", "TestImages/Labels/artistaTe.png"];
     let max = 9;
     
     if ((height > width) || (height >= (width - 200))) {
@@ -87,7 +87,9 @@ $(document).ready(function(){
     
     function updateSite(){
         $(".rightPage .piece").attr("src", images[position +1]);
+        $(".rightPage .artist").attr("src", artists[position +1]);
         $(".leftPage .piece").attr("src", images[position]);
+        $(".leftPage .artist").attr("src", artists[position]);
         
             if (position == max - 1){
             $(".rightPage .piece").hide();

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: palevioletred;
+    background: linear-gradient(180deg, rgba(255,170,144,1) 0%, rgba(219,112,147,1) 40%);
     overflow: hidden;
     color: white;
 }
