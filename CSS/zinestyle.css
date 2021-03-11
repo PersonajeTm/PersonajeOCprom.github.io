@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: darkcyan;
+    background-color: yellowgreen;
     overflow: hidden;
 }
 
@@ -13,8 +13,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
     align-items: center;
+    background-color: black;
+    border: solid black 7px;
+    border-radius: 3%;
 }
 
 
@@ -27,6 +29,7 @@ body {
     left: 0%;
     display: flex;
     align-items: center;
+    border-radius: 5% 0 0 5%;
 }
 
 .rightPage {
@@ -38,6 +41,7 @@ body {
     align-items: center;
     background-image: url(/TestImages/bgtest3.png);
     background-size: cover;   
+    border-radius: 0 5% 5% 0;
 }
 
 .piece {
@@ -71,6 +75,76 @@ body {
 #previous {
     left: 1%;
 }
+
+.tab {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+#home {
+    background-color: #3A1D7D;
+/*    background: linear-gradient(45deg, rgba(147,42,176,1) 0%, rgba(58,29,125,1) 100%);*/
+}
+
+#zine {
+    background-color: #1585FF;
+}
+
+#awards {
+    background-color: #0E8B52;
+}
+
+#stories { 
+    background-color: #FF0692;
+}
+
+#artists {
+    background-color: #FFCC10;
+}
+
+#holding {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 10%;
+    transform: rotate(270deg);
+    position: fixed;
+    top: 25%;
+    left: -2.3%;
+}
+
+#holderDiv{
+    display: flex;
+    justify-content: center;
+    width: 22.5%;
+    height: 10%;
+    position: fixed;
+    transform: rotate(90deg);
+    bottom: 25%;
+    right: -6%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+#home {
+    width: 10%;
+    height: 10%;
+    transform: rotate(270deg);
+    background-color: aquamarine;
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    border-radius: 5px;
+    text-align: center;
+}
+*/
 
 /*
 @media screen and (max-width: 857px){
