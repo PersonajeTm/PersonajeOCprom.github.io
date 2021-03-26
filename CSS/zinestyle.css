@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: yellowgreen;
+    /*background-image: url(/TestImages/galaxy.jpg);*/
+    background-size: cover;
     overflow: hidden;
 }
 
