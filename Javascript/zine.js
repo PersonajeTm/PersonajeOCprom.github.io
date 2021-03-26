@@ -7,9 +7,9 @@ $(document).ready(function(){
                     <img class="piece" src="TestImages/Pages/herriochi.png">
                     <img class="artist" src="TestImages/Signatures/herriochi.png">
                   </div>`;
-    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png", "TestImages/Pages/tinsley.jpg", "TestImages/Pages/cocoajord.png", "TestImages/Pages/yysdrmz.png", "TestImages/Pages/demonCamille.png", "TestImages/Pages/misttox.png"];
-    let artists = ["TestImages/Labels/herriochi.png", "TestImages/Labels/Drawz.png", "TestImages/Labels/doodlelolimvgaydraws.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/galchy.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/stormiikktyysdrmz.png", "TestImages/Labels/artistaTe.png", "TestImages/Labels/tinsley.png", "TestImages/Labels/cocoaJord.png", "TestImages/Labels/yysdrmz.png", "TestImages/Labels/demoncamile.png", "TestImages/Labels/misttox.png"];
-    let max = 14;
+    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png", "TestImages/Pages/tinsley.jpg", "TestImages/Pages/cocoajord.png", "TestImages/Pages/yysdrmz.png", "TestImages/Pages/demonCamille.png", "TestImages/Pages/misttox.png", "TestImages/Pages/chwerrii.png"];
+    let artists = ["TestImages/Labels/herriochi.png", "TestImages/Labels/Drawz.png", "TestImages/Labels/doodlelolimvgaydraws.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/galchy.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/herriochi.png", "TestImages/Labels/stormiikktyysdrmz.png", "TestImages/Labels/artistaTe.png", "TestImages/Labels/tinsley.png", "TestImages/Labels/cocoaJord.png", "TestImages/Labels/yysdrmz.png", "TestImages/Labels/demoncamile.png", "TestImages/Labels/misttox.png", "TestImages/Labels/chwerrii.png"];
+    let max = 15;
     
     if ((height > width) || (height >= (width - 200))) {
         var position = 0;
