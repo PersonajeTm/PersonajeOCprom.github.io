@@ -109,5 +109,8 @@ $(document).ready(function(){
         
     
     // rerender
-    
+    $('img').on('dragstart', function(event) { event.preventDefault(); });
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
 });

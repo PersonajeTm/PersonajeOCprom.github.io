@@ -49,5 +49,8 @@ $(document).ready(function(){
     addingAtags(imgLinks, instaUsers);
     printitems(imgLinks, "#appendee");
 
-    
+    $('img').on('dragstart', function(event) { event.preventDefault(); });
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
 });
