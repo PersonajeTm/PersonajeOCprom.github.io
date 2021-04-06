@@ -27,7 +27,5 @@ $(document).ready(function(){
     */
 });
 
-$('img').on('dragstart', function(event) { event.preventDefault(); });
-$("body").on("contextmenu", "img", function(e) {
-  return false;
+
 });
