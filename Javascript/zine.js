@@ -8,9 +8,9 @@ $(document).ready(function(){
                     <img class="artist" src="TestImages/Signatures/herriochi.png">
                   </div>`;
     
-    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png", "TestImages/Pages/tinsley.jpg", "TestImages/Pages/cocoajord.png", "TestImages/Pages/yysdrmz.png", "TestImages/Pages/demonCamille.png", "TestImages/Pages/misttox.png", "TestImages/Pages/chwerrii.png", "TestImages/Pages/arvlo.png", "TestImages/Pages/thesaylor.jpg", "TestImages/Pages/mayInJune.png", "TestImages/Pages/pinkSinsila.png", "TestImages/Pages/gothamGirl1.jpg", "TestImages/Pages/gothamGirl2.jpg", "TestImages/Pages/smaem.png", "TestImages/Pages/1800whatever.png", "TestImages/Pages/cocoCereal.png", "TestImages/Pages/geluk.png", "TestImages/Pages/izzyfied.jpeg", "TestImages/Pages/dorkyfries.png", "TestImages/Pages/railytate1.jpg", "TestImages/Pages/railytate2.jpg", "TestImages/Pages/railytate3.jpg", "TestImages/Pages/dragontonic.png", "TestImages/Pages/magicgirlobsessed.jpeg", "TestImages/Pages/slntbutterfly.png", "TestImages/Pages/fluffyhobbit1.png", "TestImages/Pages/fluffyhobbit2.jpg", "TestImages/Pages/broccolityme.png", "TestImages/Pages/kreamesodapop.jpg"];
-    let artists = ["TestImages/Labels/herriochi.png", "TestImages/Labels/Drawz.png", "TestImages/Labels/doodlelolimvgaydraws.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/galchy.png", "TestImages/Labels/seviche.png", "TestImages/Labels/chayse.png", "TestImages/Labels/stormiikktyysdrmz.png", "TestImages/Labels/artistaTe.png", "TestImages/Labels/tinsley.png", "TestImages/Labels/cocoaJord.png", "TestImages/Labels/yysdrmz.png", "TestImages/Labels/demoncamile.png", "TestImages/Labels/misttox.png", "TestImages/Labels/chwerrii.png", "TestImages/Labels/arvlo.png", "TestImages/Labels/theSaylor.png", "TestImages/Labels/mayinjune.png", "TestImages/Labels/PinkSinsila.png", "TestImages/Labels/gothamGirlSketches.png", "TestImages/Labels/gothamGirlSketches.png", "TestImages/Labels/smaem.png", "TestImages/Labels/1800whatever.png", "TestImages/Labels/cococerealyysdrmz.png", "TestImages/Labels/geluk.png", "TestImages/Labels/Izzyfied.png", "TestImages/Labels/dorkyfries.png", "TestImages/Labels/railytate.png", "TestImages/Labels/railytate.png", "TestImages/Labels/railytate.png", "TestImages/Labels/geluk.png", "TestImages/Labels/magicgirlobsessed.png", "TestImages/Labels/slntbutterfly.png", "TestImages/Labels/hobbitcole.png", "TestImages/Labels/hobbitcole.png", "TestImages/Labels/broccolityme.png", "TestImages/Labels/kreamesodapop.png"];
-    let max = 37;
+    let images = ["TestImages/Pages/herriochi.png", "TestImages/Pages/drawz.png", "TestImages/Pages/DoodleNbluJay.png", "TestImages/Pages/Doodle.jpeg", "TestImages/Pages/galchy.png", "TestImages/Pages/seviche.png", "TestImages/Pages/chayse.png", "TestImages/Pages/tina.png", "TestImages/Pages/artistaTe.png", "TestImages/Pages/tinsley.jpg", "TestImages/Pages/cocoajord.png", "TestImages/Pages/yysdrmz.png", "TestImages/Pages/demonCamille.png", "TestImages/Pages/misttox.png", "TestImages/Pages/chwerrii.png", "TestImages/Pages/arvlo.png", "TestImages/Pages/thesaylor.jpg", "TestImages/Pages/mayInJune.png", "TestImages/Pages/pinkSinsila.png", "TestImages/Pages/gothamGirl1.jpg", "TestImages/Pages/gothamGirl2.jpg", "TestImages/Pages/smaem.png", "TestImages/Pages/1800whatever.png", "TestImages/Pages/cocoCereal.png", "TestImages/Pages/geluk.png", "TestImages/Pages/izzyfied.jpeg", "TestImages/Pages/dorkyfries.png", "TestImages/Pages/railytate1.jpg", "TestImages/Pages/railytate2.jpg", "TestImages/Pages/railytate3.jpg", "TestImages/Pages/dragontonic.png", "TestImages/Pages/magicgirlobsessed.jpeg", "TestImages/Pages/slntbutterfly.png", "TestImages/Pages/fluffyhobbit1.png", "TestImages/Pages/fluffyhobbit2.jpg", "TestImages/Pages/broccolityme.png", "TestImages/Pages/kreamesodapop.jpg", "TestImages/Pages/evichu.jpg", "TestImages/Pages/ampilfur.jpg", "TestImages/Pages/mk.jpg", "TestImages/Pages/colonybees.png", "TestImages/Pages/soulbird.png", "TestImages/Pages/miimaas.jpg", "TestImages/Pages/miimaas2.jpg"];
+    let artists = ["TestImages/Labels/herriochi.png", "TestImages/Labels/Drawz.png", "TestImages/Labels/doodlelolimvgaydraws.png", "TestImages/Labels/Doodle.png", "TestImages/Labels/galchy.png", "TestImages/Labels/seviche.png", "TestImages/Labels/chayse.png", "TestImages/Labels/stormiikktyysdrmz.png", "TestImages/Labels/artistaTe.png", "TestImages/Labels/tinsley.png", "TestImages/Labels/cocoaJord.png", "TestImages/Labels/yysdrmz.png", "TestImages/Labels/demoncamile.png", "TestImages/Labels/misttox.png", "TestImages/Labels/chwerrii.png", "TestImages/Labels/arvlo.png", "TestImages/Labels/theSaylor.png", "TestImages/Labels/mayinjune.png", "TestImages/Labels/PinkSinsila.png", "TestImages/Labels/gothamGirlSketches.png", "TestImages/Labels/gothamGirlSketches.png", "TestImages/Labels/smaem.png", "TestImages/Labels/1800whatever.png", "TestImages/Labels/cococerealyysdrmz.png", "TestImages/Labels/geluk.png", "TestImages/Labels/Izzyfied.png", "TestImages/Labels/dorkyfries.png", "TestImages/Labels/railytate.png", "TestImages/Labels/railytate.png", "TestImages/Labels/railytate.png", "TestImages/Labels/geluk.png", "TestImages/Labels/magicgirlobsessed.png", "TestImages/Labels/slntbutterfly.png", "TestImages/Labels/hobbitcole.png", "TestImages/Labels/hobbitcole.png", "TestImages/Labels/broccolityme.png", "TestImages/Labels/kreamesodapop.png", "TestImages/Labels/evichuArt.png", "TestImages/Labels/ampilfur.png", "TestImages/Labels/mk.png", "TestImages/Labels/colonybees.png", "TestImages/Labels/soulbird.png", "TestImages/Labels/enisthemenace.png", "TestImages/Labels/enisthemenace.png"];
+    let max = 44;
     
     if ((height > width) || (height >= (width - 200))) {
         var position = 0;
@@ -36,6 +36,8 @@ $(document).ready(function(){
         function updateSite(){
             $(".piece").attr("src", images[position]);  
             $(".artist").attr("src", artists[position]);
+            
+            
         }
         
 
@@ -46,6 +48,7 @@ $(document).ready(function(){
                     position++; 
                 }
             updateSite();
+            
         });
         
         $(".previous").click(function(){
@@ -105,7 +108,22 @@ $(document).ready(function(){
         
     }
     
-    
+    function changeBG(number){
+        
+        let firstbg = `url("TestImages/sky3.png")`;
+        let secondbg = `url("TestImages/sky.png")`;
+        let thirdbg = `url("TestImages/sky2.png")`;
+        
+        if (number === 1){
+            $("body").css("background-img", firstbg);
+            }
+        else if (number === 2){
+            $("body").css("background-img", secondbg);
+        }
+        else if (number === 3){
+              $("body").css("background-img", thirdbg);   
+                 }
+    }
         
     
     // rerender
