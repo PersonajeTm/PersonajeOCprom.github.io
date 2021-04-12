@@ -17,17 +17,26 @@ $(document).ready(function(){
     let artists = [ "TestImages/Labels/geluk.png",   ];
     */
     let max = 44;
+    let checkpoint = 9;
+        
+
     
     if ((height > width) || (height >= (width - 200))) {
+        
         var position = 0;
+        
+        
+    
         // CSS SHIT
-        $("body").css("background-color", "yellowgreen");
+//        $("body").css("background-color", "yellowgreen");
         $(".rightPage").remove();
         $(".leftPage").remove();
         $("#holding").remove();
         $("#holderDiv").remove();
         $("#placeholder").html(pageHTML);
-        $("body").append(`<div style=" width: 100%; display: flex; justify-content: center; position: fixed; top: 5%;" id="homeHolder"><a href="main.html"><button style="height:50px;width:50px;"><img style="width:100%;" src="TestImages/home.png"></button></a></div>`);
+        $(".piece").attr("src", "TestImages/Pages/colonybees.png");  
+        $(".artist").attr("src", "TestImages/Labels/colonyBees.png");
+        $("body").append(`<div style=" width: 100%; margin: 3%; display: flex; justify-content: center; position: fixed; top: 5%;" id="homeHolder"><a href="main.html"><button style="height:50px;width:50px;"><img style="width:100%;" src="TestImages/home.png"></button></a></div>`);
         
         $(".container").css("background-image", "url(/TestImages/bgtest3.png)"); 
         $(".container").css("background-color", "transparent");
@@ -46,7 +55,8 @@ $(document).ready(function(){
             
         }
         
-
+        
+        
         $("#next").click(function(){
             if (position === max){
                 position = max;
@@ -55,6 +65,12 @@ $(document).ready(function(){
                 }
             updateSite();
             
+            if (position < checkpoint){
+                $("body").css("background-image", "url(/TestImages/sky2.png)"); 
+                }
+            else{
+                $("body").css("background-image", "url(/TestImages/sky.png)"); 
+            }
         });
         
         $(".previous").click(function(){
@@ -65,6 +81,13 @@ $(document).ready(function(){
                 position--; 
             }
             updateSite();
+            
+            if (position < checkpoint){
+                $("body").css("background-image", "url(/TestImages/sky2.png)"); 
+                }
+            else{
+                $("body").css("background-image", "url(/TestImages/sky.png)"); 
+            }
         });
         
         
@@ -84,6 +107,12 @@ $(document).ready(function(){
             position+= 2;
         }
             updateSite();
+        if (position <= checkpoint){
+                $("body").css("background-image", "url(/TestImages/sky2.png)"); 
+                }
+            else{
+                $("body").css("background-image", "url(/TestImages/sky.png)"); 
+            }
     
     });
     
@@ -94,6 +123,12 @@ $(document).ready(function(){
         }
             updateSite();
         
+        if (position <= checkpoint){
+                $("body").css("background-image", "url(/TestImages/sky2.png)"); 
+                }
+            else{
+                $("body").css("background-image", "url(/TestImages/sky.png)"); 
+            }
     });
     
     function updateSite(){
@@ -110,11 +145,13 @@ $(document).ready(function(){
             $(".rightPage .piece").show();
             $(".rightPage .artist").show();
         }
+        
+        
     }
         
     }
     
-    function changeBG(number){
+    /*function changeBG(number){
         
         let firstbg = `url("TestImages/sky3.png")`;
         let secondbg = `url("TestImages/sky.png")`;
@@ -129,10 +166,10 @@ $(document).ready(function(){
         else if (number === 3){
               $("body").css("background-img", thirdbg);   
                  }
-    }
+    }*/
         
     
-    // rerender
+    
 
 });
 
