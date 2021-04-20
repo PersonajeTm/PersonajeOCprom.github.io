@@ -5,7 +5,7 @@ body {
 }
 
 .left {
-/*    overflow-y: scroll;*/
+    overflow-y: scroll;
     color: white;
     background-color: black;
     width: 25%;
@@ -17,7 +17,7 @@ body {
 }
 
 .right {
-/*    overflow-y: scroll;  */
+    overflow-y: scroll;  
     color: white;
     background-color: black;
     width: 25%;
@@ -26,6 +26,7 @@ body {
     right: 0;
     top: 0;
     text-align: center;
+    padding: 2%;
 }
 
 #titles {
@@ -67,6 +68,24 @@ div.prcr {
     align-self: center;
 }
 
+.watermark {
+    width: 100px;
+}
+
+.awardName, .review {
+    font-family: 'Zen Dots', cursive;
+    font-size: 90%;
+}
+
+.review {
+    line-height: 2;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+    
 /* HOME BUTTON START*/
 button {
     display: block;
@@ -137,6 +156,9 @@ button:hover {
     margin: 1%;
     margin-top: 5%;
 }
+    .review, .awardName {
+        color: black;
+    }
     }
 
 @media screen and (min-height: 700px){
